@@ -7,16 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/timpeters999/hapi_withangular_noscope_kit.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/timpeters999/hapi_withangular_noscope_kit/issues"
-  },
-  "homepage": "https://github.com/timpeters999/hapi_withangular_noscope_kit#readme",
   "dependencies": {
     "angular": "^1.4.8",
     "angular-route": "^1.4.8",

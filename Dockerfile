@@ -4,7 +4,7 @@ FROM ubuntu:14.04
 RUN sudo apt-get update && sudo apt-get install -y nodejs npm nodejs-legacy git git-core wget rpm curl
 
 ADD package.json package.json
-RUN sudo npm install --production
+#RUN sudo npm install --production
 
 RUN sudo npm cache clean -f
 RUN sudo npm install -g n

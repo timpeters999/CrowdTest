@@ -8,7 +8,6 @@ var server = new hapi.Server();
 
 // add connection parameters
 server.connection({
-    host: 'localhost',
     port: 1400
 });
 
